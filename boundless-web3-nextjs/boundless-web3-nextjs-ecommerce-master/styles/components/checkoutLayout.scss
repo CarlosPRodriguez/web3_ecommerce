@@ -1,0 +1,21 @@
+.bdl-checkout-layout {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	min-height: 100vh;
+
+	&__main {
+		flex-grow: 1;
+
+		&-v-center {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+	}
+
+	&__container {
+		margin-bottom: 2rem;
+		margin-top: 2rem;
+	}
+}
